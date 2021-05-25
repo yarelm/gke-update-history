@@ -8,8 +8,6 @@ on:
 permissions:
   contents: write
 
-builds:
-  main: ./cmd/main.go
 
 jobs:
   goreleaser:
